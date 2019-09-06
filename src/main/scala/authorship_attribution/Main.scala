@@ -15,6 +15,8 @@ object Main {
     .master("local")
     .getOrCreate()
 
+  spark.sparkContext.setLogLevel("ERROR")
+
   def main(args: Array[String]): Unit = {
     //get training dataset
     val csv: DataFrame = spark.read
@@ -95,6 +97,7 @@ object Main {
     val savedModel = CrossValidatorModel.read.load(".\\src\\main\\resources\\model")
     val testRes = savedModel.transform(test)
     testRes.show()
+
   }
 
 }
