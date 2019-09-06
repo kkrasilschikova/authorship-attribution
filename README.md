@@ -1,5 +1,5 @@
 # authorship-attribution
-Given a text predict its author.
+Given a text predict its author.  
 Got 0.885 recall and 0.896 precision.
 
 #### Data Set Information
@@ -9,5 +9,5 @@ To decrease the bias and create a reliable authorship attribution dataset the fo
 Each instance consists of 1000 word sequences that are divided from the works of every author's book. In the training, the author id is also provided.
 
 #### Origin
-http://archive.ics.uci.edu/ml/datasets/Victorian+Era+Authorship+Attribution
+http://archive.ics.uci.edu/ml/datasets/Victorian+Era+Authorship+Attribution  
 GUNGOR, ABDULMECIT, Benchmarking Authorship Attribution Techniques Using Over A Thousand Books by Fifty Victorian Era Novelists, Purdue Master of Thesis, 2018-04 
